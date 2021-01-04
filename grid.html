@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grille 1</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Intro</a></li>
+                <li class="navbar-item"><a href="page2.html"> Les signets / ancres</a></li>
+                <li class="navbar-item"><a href="page3.html">Les tableaux</a></li>
+                <li class="navbar-item"><a href="form.html">Les formulaires</a></li>
+                <li class="navbar-item" ><a href="exoCSS.html">Exo CSS</a></li>
+                <li class="navbar-item"><a href="gradient.html">Les gradients</a></li>
+                <li class="navbar-item"><a href="balises.html">Les balises HTML</a></li>
+                <li class="navbar-item"><a href="display.html">Display</a></li>
+                <li class="navbar-item active"><a href="grid.html">Grille 1</a></li>
+                <li class="navbar-item"><a href="grid2.html">Grille 2</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="grid">
+        <div class="premier">1</div>
+        <div class="deuxieme">2</div>
+        <div class="troisieme">3</div>
+        <div class="quatrieme">4</div>
+        <div class="cinquieme">5</div>
+        <div class="sixieme">6</div>
+    </div>
+
+    <style>
+        .grid { 
+            display: grid;
+            color: white;
+            text-align: center;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        .premier {
+            grid-column: 1;
+            grid-row: 1;
+            background-color: blue;
+        }
+        .deuxieme {
+            grid-column: 2;
+            grid-row: 1;
+            background-color: blueviolet;
+        }
+        .troisieme {
+            grid-column: 1;
+            grid-row: 2;   
+            background-color: burlywood;
+        }
+        .quatrieme {
+            grid-column: 2;
+            grid-row: 2;  
+            background-color: chartreuse; 
+        }
+        .cinquieme {
+            grid-column: 1;
+            grid-row: 3;
+            background-color: crimson;
+        }
+        .sixieme {
+            grid-column: 2;
+            grid-row: 3;
+            background-color: yellow;
+        }
+    </style>
+
+</body>
+</html>

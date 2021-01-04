@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Intro</a></li>
+                <li class="navbar-item"><a href="page2.html"> Les signets / ancres</a></li>
+                <li class="navbar-item"><a href="page3.html">Les tableaux</a></li>
+                <li class="navbar-item active"><a href="form.html">Les formulaires</a></li>
+                <li class="navbar-item" ><a href="exoCSS.html">Exo CSS</a></li>
+                <li class="navbar-item"><a href="gradient.html">Les gradients</a></li>
+                <li class="navbar-item"><a href="balises.html">Les balises HTML</a></li>
+                <li class="navbar-item"><a href="display.html">Display</a></li>
+                <li class="navbar-item"><a href="grid.html">Grille 1</a></li>
+                <li class="navbar-item"><a href="grid2.html">Grille 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <form action="mailto:margaux.vitez@hotmail.fr" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label for="lastName">Entrez votre nom</label>
+                    </td>
+                    <td>
+                        <input type="text" id="lastName" name="lastName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Entrez votre adresse e-mail</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="client">Etes-vous client à la fnac ?</label>
+                    </td>
+                    <td>
+                        <label for="client">OUI</label>
+                        <input type="radio" name="client" checked>
+                        <label for="client">NON</label>
+                        <input type="radio" name="client">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Envoyer">
+                    </td>
+                    <td>
+                        <input type="reset" value="Annuler">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>
+        <p>Le footer</p>
+    </footer>
+</body>
+
+</html>

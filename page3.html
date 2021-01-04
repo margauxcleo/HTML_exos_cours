@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tableau en html</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Intro</a></li>
+                <li class="navbar-item"><a href="page2.html"> Les signets / ancres</a></li>
+                <li class="navbar-item active"><a href="page3.html">Les tableaux</a></li>
+                <li class="navbar-item"><a href="form.html">Les formulaires</a></li>
+                <li class="navbar-item" ><a href="exoCSS.html">Exo CSS</a></li>
+                <li class="navbar-item"><a href="gradient.html">Les gradients</a></li>
+                <li class="navbar-item"><a href="balises.html">Les balises HTML</a></li>
+                <li class="navbar-item"><a href="display.html">Display</a></li>
+                <li class="navbar-item"><a href="grid.html">Grille 1</a></li>
+                <li class="navbar-item"><a href="grid2.html">Grille 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container">
+        <table border="1">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <tr align="center">
+                <th>
+                    Col1
+                </th>
+                <th>
+                    Col2
+                </th>
+                <th>
+                    Col3
+                </th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">2</td>
+                <td align="center">3</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">5</td>
+                <td align="center">6</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" width="80%">
+            <th align="center" colspan="3">Titre centré sur les 3 colonnes </th>
+            <tr>
+                <th align="center">Col1</th>
+                <th align="center">Col2</th>
+                <th align="center">Col3</th>
+            </tr>
+            <tr>
+                <td align="center">1</td>
+                <td align="center">2</td>
+                <td align="center">3</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td align="center">5</td>
+                <td align="center">6</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1" align="center">
+            <caption>Recettes budgétaires par région</caption>
+            <tr>
+                <th align="center"></th>
+                <th align="center"colspan="2">En millions d'euros</th>
+                <th align="center"rowspan="2">2015 en €/hab.</th>
+            </tr>
+            <tr align="center">
+                <th></th>
+                <th>2014</th>
+                <th>2015</th>
+            </tr>
+            <tr align="center">
+                <td>Ile-de-France</td>
+                <td>399258</td>
+                <td>415920</td>
+                <td>178,8</td>
+            </tr>
+            <tr align="center">
+                <td>Midi-pyrénées</td>
+                <td>73961</td>
+                <td>63826</td>
+                <td>219,4</td>
+            </tr>
+            <tr align="center">
+                <td>Centre</td>
+                <td>43638</td>
+                <td>55802</td>
+                <td>185,9</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>Le footer</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grille 2</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Intro</a></li>
+                <li class="navbar-item"><a href="page2.html"> Les signets / ancres</a></li>
+                <li class="navbar-item"><a href="page3.html">Les tableaux</a></li>
+                <li class="navbar-item"><a href="form.html">Les formulaires</a></li>
+                <li class="navbar-item" ><a href="exoCSS.html">Exo CSS</a></li>
+                <li class="navbar-item"><a href="gradient.html">Les gradients</a></li>
+                <li class="navbar-item"><a href="balises.html">Les balises HTML</a></li>
+                <li class="navbar-item"><a href="display.html">Display</a></li>
+                <li class="navbar-item"><a href="grid.html">Grille 1</a></li>
+                <li class="navbar-item active"><a href="grid2.html">Grille 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid">
+        <div class="septieme">7</div>
+        <div class="huitieme">8</div>
+        <div class="neuxieme">9</div>
+        <div class="dixieme">10</div>
+    </div>
+
+    <style>
+        .grid { 
+            display: grid;
+            color: white;
+            text-align: center;
+            grid-auto-rows: minmax(100px, auto);
+        }
+        .septieme {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: blue;
+        }
+        .neuxieme {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: burlywood;
+        }
+        .dixieme {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: blueviolet; 
+        }
+    </style>
+</body>
